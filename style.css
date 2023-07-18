@@ -1,0 +1,241 @@
+* {
+    font-family: Arial;
+    border: border-box;
+    margin: 0px;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.border{
+    border: 1.5px solid transparent;
+}
+.border :hover {
+    border: 1.5px solid white;
+}
+
+/*box1*/
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/*box2*/
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-1{
+    
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 11px;
+}
+
+/*box3*/
+.nav-search:hover{
+    border-color: orange;
+}
+.nav-search{
+    display: flex;
+    width: 625px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 57px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-input{
+    width: 525px;
+    border: none;
+    font-size: 1rem;
+    
+}
+.search-icon{
+    width: 40px;
+    color: #0f1111;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    
+}
+
+/**box 4**/
+
+span{
+    font-size: 0.75rem;
+}
+.signin2{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/** box 5 **/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel **/
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 500;
+}
+.panel-ops p{
+    display: inline;
+    margin-right: 15px;
+    font-size: 0.85rem;
+}
+.panel-ops{
+    width: 70%;
+}
+.panel-deals{
+    font-weight: 700px;
+}
+
+/**Hero section**/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg a{
+    color: #007185;
+}
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    font-weight: 900px;
+    margin-bottom: 100px;
+}
+
+/** Shop Section **/
+.shop-sec{
+    height: 850px;
+    background-color: #e2e7e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    margin-top: 15px;
+    background-color: white;
+   
+    height: 400px;
+    width: 23%;
+}
+.shop-sec a{
+    color: #007185;   
+}
+
+.content-img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box-content{
+    margin: 15px 15px 10px 15px ;
+}
+
+/** Footer **/
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    font-size: 0.85rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2{
+    height: 280px;
+    background-color: #222f3D;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 30px;
+}
+ul p{
+    font-weight: 700;
+}
+ul a{
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: #dddddd;
+    display: block;
+}
+
+.foot-panel3{
+    height: 70px;
+    background-color: #222f3D;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    height: 77px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.foot-privacy{
+    padding-top: 17px;
+}
+.foot-copyright{
+    padding-top: 5px;
+}
